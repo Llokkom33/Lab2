@@ -1,21 +1,5 @@
-lab 4
+lab 5
 
-Результат коду:
+ У цій програмі ми використовуємо словник words, де ключі - це числа від 0 до 9, а значення - відповідні слова для цих чисел. Функція number_to_word отримує число і повертає відповідне словесне представлення за допомогою методу get для доступу до значень словника.
 
-Enter the path to the file (or 'q' to quit): example.txt
-Statistics for file: example.txt
-1. Line count: 5
-2. Empty line count: 1
-3. Lines with 'z': 2
-4. Total 'z' count: 3
-5. Lines with 'and': 1
-Do you want to analyze another file? (y/n): y
-Enter the path to the file (or 'q' to quit): another_example.txt
-Statistics for file: another_example.txt
-1. Line count: 4
-2. Empty line count: 0
-3. Lines with 'z': 1
-4. Total 'z' count: 1
-5. Lines with 'and': 2
-Do you want to analyze another file? (y/n): n
- 
+Після запуску програма вітає користувача, запитує у нього номер (ціле число) і виводить словесне представлення цього числа за допомогою функції number_to_word. Якщо користувач вводить 'q' або відбувається помилка при перетворенні введеного значення на ціле число, програма запитує користувача, чи хоче він завершити роботу. Якщо користувач погоджується завершити, програма виводить прощальне повідомлення і закінчує свою роботу.
